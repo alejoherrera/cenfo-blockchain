@@ -10,3 +10,5 @@ function getAverage(scores) {
   // Calcular promedio
   return sum / scores.length;
 }
+
+console.log(getAverage([92, 88, 12, 77, 57, 100, 67, 38, 97, 89]));
