@@ -1,12 +1,12 @@
 function getAverage(scores) {
-  // Inicializar la variable para la suma
+  // Inicializar variable  suma
   let sum = 0;
   
-  // Sumar todos los valores del array
+  // Sumar todos los valores
   for (let i = 0; i < scores.length; i++) {
     sum += scores[i];
   }
   
-  // Calcular y devolver el promedio
+  // Calcular promedio
   return sum / scores.length;
 }
